@@ -1,3 +1,7 @@
+import React from "react"
+import ReactDOM from "react-dom/client"
+
+
 /*
  * nested element
  *
@@ -13,6 +17,9 @@
  * </div>
  *
  */
+
+
+
 
 const parent = React.createElement('div', { id: 'parent' }, [
     React.createElement('div', { id: 'child1' }, [
